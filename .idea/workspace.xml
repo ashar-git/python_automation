@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb4c172-a519-4cbb-a1a8-368bf1a21219" name="Changes" comment="new commits">
-      <change afterPath="$PROJECT_DIR$/test/constants/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObjects/PageFactory/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObjects/PageObjectModel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObjects/PageObjectModel/vwo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/utils/commn_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/PageObjectModel/vwo/dashboardPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/PageObjectModel/vwo/freeTrial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/PageObjectModel/vwo/loginPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tests/sample/test_vwologin_NotOptimisedWithoutUsingFramework.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/sample/test_vwologin_NotOptimisedWithoutUsingFramework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/utils/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/utils/Utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_free_trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_free_trial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,6 +121,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new commits" />
