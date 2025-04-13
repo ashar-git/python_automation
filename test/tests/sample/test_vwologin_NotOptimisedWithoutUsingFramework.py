@@ -1,14 +1,12 @@
 import time
-
 from selenium import  webdriver
 import pytest
-import allure
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from dotenv import load_dotenv
 from test.utils.Utils import *
 import os
+
 
 @allure.title("VWO Login Negative Testcase")
 @allure.description("TC1 - Negative TC - VWO login with invalid credentials")
