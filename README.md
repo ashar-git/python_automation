@@ -25,3 +25,6 @@ Tech Stack for framework development
 - pip install mysql-connector-python
 - pip install pytest-reportportal
 - pip install python-dotenv
+
+###Failed test case screenshot
+ ![image](https://github.com/user-attachments/assets/6ab05479-5bdb-46c2-bb72-794e6e30ed15)
