@@ -7,7 +7,7 @@ from test.utils.Utils import *
 
 #Script Flow
 #Webdriver start
-#user interaction = Assertiond
+#user interaction = Assertion
 #close webdriver
 
 from test.constants.constants import Constants
@@ -45,7 +45,7 @@ def test_vwo_login_negative(setup):
 @pytest.mark.positive
 def test_vwo_login_positive(setup):
     driver=setup
-    driver.get(Constants.app_url())
+    # driver.get(Constants.app_url())
     login_page=LoginPage(driver=driver)
     login_page.login_to_vwo(usr=os.getenv("USERNAME_VWO"), pwd=os.getenv("PASSWORD_VWO"))
     dashboard_page=DashboardPage(driver=driver)
