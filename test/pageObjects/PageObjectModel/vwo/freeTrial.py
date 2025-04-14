@@ -26,6 +26,7 @@ class FreeTrialPage:
         return self.driver.find_element(*FreeTrialPage.error_msg_invalid_email_ft)
 
     def get_error_msg_invalid_email_text(self):
+        webdriver_wait(driver=self.driver, element_tuple=self.error_msg_invalid_email_ft,timeout=5)
         return self.get_error_msg_invalid_email().text
 
     def enter_free_trial_details_invalid(self,invalid_email):

@@ -12,7 +12,7 @@ from test.utils.Utils import *
 
 from test.constants.constants import Constants
 from test.pageObjects.PageObjectModel.vwo.loginPage import LoginPage
-from test.pageObjects.PageObjectModel.vwo.dashboardPage import DashboardPage
+from test.pageObjects.PageObjectModel.vwo.freeTrial import FreeTrialPage
 from dotenv import load_dotenv
 import os
 
@@ -26,29 +26,18 @@ def setup():
     return driver
 
 
-@allure.title("VWO Login Test")
-@allure.description("TC#01 - vwo App Negative test")
-@allure.feature("Feature | vwo app negative test")
+@allure.title("VWO Free Trial")
+@allure.description("TC#01 - vwo Free Trial test")
+@allure.feature("Feature | vwo Free Trial test")
 @pytest.mark.negative
-def test_vwo_login_negative(setup):
+def test_vwo_ft_negative(setup):
     driver=setup
     login_page=LoginPage(driver=driver)
-    login_page.login_to_vwo(usr=os.getenv("INVALID_USERNAME"), pwd=os.getenv("INVALID_PASSWORD"))
-    error_message=login_page.get_error_message_text()
-    take_screen_shot(driver=driver, name="screenshot_1")
-    assert error_message == os.getenv("error_message_expected")
+    login_page.free_trial_btn_click()
+    take_screen_shot(driver=driver, name="test_vwo_ft_negative")
+    free_trial_page = FreeTrialPage(driver=driver)
+    free_trial_page.enter_free_trial_details_invalid(invalid_email="admin")
+    error_msg_text = free_trial_page.get_error_msg_invalid_email_text()
+    assert error_msg_text == "The email address you entered is incorrect."
 
-
-@allure.title("VWO Login Test")
-@allure.description("TC#02 - vwo App positive test")
-@allure.feature("Feature | vwo app positive test")
-@pytest.mark.positive
-def test_vwo_login_positive(setup):
-    driver=setup
-    driver.get(Constants.app_url())
-    login_page=LoginPage(driver=driver)
-    login_page.login_to_vwo(usr=os.getenv("USERNAME_VWO"), pwd=os.getenv("PASSWORD_VWO"))
-    dashboard_page=DashboardPage(driver=driver)
-    take_screen_shot(driver=driver, name="screenshot_2")
-    assert os.getenv("USERNAME_LOGGED_IN") in dashboard_page.user_logged_in_text()
 

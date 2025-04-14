@@ -10,6 +10,7 @@ class LoginPage:
     vwo_password = (By.XPATH, "//input[@id='login-password']")
     submit_btn = (By.XPATH, "//button[@id='js-login-btn']")
     error_msg = (By.XPATH, "//div[@id='js-notification-box-msg']")
+    free_trial_page = (By.XPATH, "//a[normalize-space()='Start a free trial']")
 
     def __init__(self, driver):
         self.driver = driver
@@ -23,11 +24,14 @@ class LoginPage:
     def get_submit_btn(self):
         return self.driver.find_element(*LoginPage.submit_btn)
 
+    def get_free_trial_btn(self):
+        return self.driver.find_element(*LoginPage.free_trial_page)
+
     def get_error_msg(self):
-        webdriver_wait(driver=self.driver,element_tuple=self.error_msg,timeout=5)
+        webdriver_wait(driver=self.driver, element_tuple=self.error_msg, timeout=5)
         return self.driver.find_element(*LoginPage.error_msg)
 
-    def login_to_vwo(self,usr,pwd):
+    def login_to_vwo(self, usr, pwd):
         try:
             self.get_username().send_keys(usr)
             self.get_password().send_keys(pwd)
@@ -35,12 +39,12 @@ class LoginPage:
         except Exception as e:
             print(e)
 
+    def free_trial_btn_click(self):
+        try:
+            self.get_free_trial_btn().click()
+        except Exception as e:
+            print(e)
+
     def get_error_message_text(self):
-        webdriver_wait(driver=self.driver,element_tuple=self.error_msg,timeout=5)
+        webdriver_wait(driver=self.driver, element_tuple=self.error_msg, timeout=5)
         return self.get_error_msg().text
-
-
-
-
-
-
