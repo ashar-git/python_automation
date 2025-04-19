@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb4c172-a519-4cbb-a1a8-368bf1a21219" name="Changes" comment="new commits 19-04-25">
-      <change afterPath="$PROJECT_DIR$/test/pageObjects/PageFactory/loginpage_pagefactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/PageFactory/Dashboard_pagefactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoTesting/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoTesting/test_vwo_login_pf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageObjects/PageFactory/loginpage_pagefactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageObjects/PageFactory/loginpage_pagefactory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745048158287</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new commits 19-04-25">
+      <option name="closed" value="true" />
+      <created>1745049113968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745049113968</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
