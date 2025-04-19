@@ -8,6 +8,7 @@ from selenium import webdriver
 from test.pageObjects.PageFactory.loginpage_pagefactory import LoginPage
 from test.pageObjects.PageFactory.Dashboard_pagefactory import DashboardPage
 from test.constants.constants import Constants
+from test.tests.vwoTesting.conftest import *
 
 @allure.epic("VWO App")
 @allure.feature("PF Login Test")
