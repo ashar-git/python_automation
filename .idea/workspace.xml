@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb4c172-a519-4cbb-a1a8-368bf1a21219" name="Changes" comment="new commits 19-04-25">
-      <change afterPath="$PROJECT_DIR$/test/tests/sample/test_js_executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/sample/test_properly_arranged_js_executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/sample/test_selenium_automatic_scroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/sample/test_selenium_scroll_into_element_and_shadowDOM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tests/vwoTesting/test_vwo_login_pf.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoTesting/test_vwo_login_pf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tests/sample/test_js_executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/sample/test_alert_using_js_executor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +46,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/PycharmProjects/AutomationFramework&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests for test_js_executor.test_verify_JS_Executor.executor": "Run",
+    "Python tests.Python tests for test_selenium_scroll_into_element.test_shadow_dom_using_js_executor.executor": "Run",
+    "Python tests.Python tests for test_selenium_scroll_into_element.test_verify_automatic_scroll.executor": "Run",
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor": "Run",
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor": "Run",
+    "Python tests.Python tests for tsetselenium_automatic_scroll.test_verify_automatic_scroll.executor": "Run",
+    "Python tests.Python tests for tsetselenium_automatic_scroll.test_verify_title.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/hp/PycharmProjects/AutomationFramework"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_js_executor.test_verify_JS_Executor">
-    <configuration name="Python tests for test_js_executor.test_verify_JS_Executor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Python tests for test.tests.sample.test_alert_using_js_executor.test_verify_JS_Executor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,45 +74,77 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_js_executor.test_verify_JS_Executor&quot;" />
+      <option name="_new_target" value="&quot;test.tests.sample.test_alert_using_js_executor.test_verify_JS_Executor&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.tests.vwoTesting.test_vwo_login.test_vwo_login_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.tests.sample.test_selenium_automatic_scroll" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoTesting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/sample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.tests.vwoTesting.test_vwo_login.test_vwo_login_negative&quot;" />
+      <option name="_new_target" value="&quot;test.tests.sample.test_selenium_automatic_scroll&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.tests.vwoTesting.test_vwo_login.test_vwo_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.tests.sample.test_selenium_automatic_scroll.test_verify_automatic_scroll" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WebAutomationFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoTesting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/sample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.tests.vwoTesting.test_vwo_login.test_vwo_login_positive&quot;" />
+      <option name="_new_target" value="&quot;test.tests.sample.test_selenium_automatic_scroll.test_verify_automatic_scroll&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.tests.sample.test_selenium_scroll_into_element_and_shadowDOM" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.tests.sample.test_selenium_scroll_into_element_and_shadowDOM&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.tests.sample.test_selenium_scroll_into_element_and_shadowDOM.test_shadow_dom_using_js_executor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.tests.sample.test_selenium_scroll_into_element_and_shadowDOM.test_shadow_dom_using_js_executor&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_js_executor.test_verify_JS_Executor" />
-        <item itemvalue="Python tests.Python tests for test.tests.vwoTesting.test_vwo_login.test_vwo_login_positive" />
-        <item itemvalue="Python tests.Python tests for test.tests.vwoTesting.test_vwo_login.test_vwo_login_negative" />
+        <item itemvalue="Python tests.Python tests for test.tests.sample.test_selenium_scroll_into_element_and_shadowDOM.test_shadow_dom_using_js_executor" />
+        <item itemvalue="Python tests.Python tests for test.tests.sample.test_selenium_scroll_into_element_and_shadowDOM" />
+        <item itemvalue="Python tests.Python tests for test.tests.sample.test_selenium_automatic_scroll" />
+        <item itemvalue="Python tests.Python tests for test.tests.sample.test_selenium_automatic_scroll.test_verify_automatic_scroll" />
+        <item itemvalue="Python tests.Python tests for test.tests.sample.test_alert_using_js_executor.test_verify_JS_Executor" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745065914582</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new commits 19-04-25">
+      <option name="closed" value="true" />
+      <created>1745074449874</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745074449874</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
